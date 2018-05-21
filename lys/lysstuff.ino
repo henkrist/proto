@@ -3,11 +3,10 @@ int led1 = 11; // the PWM pin the LED is attached to
 int led2 = 10;
 int led3 = 9;
 
-//henrik
-//hentr binært fra rfduino. Husk å koble sammen ground.
-int binaryIn1 = A0; // pin 2 hos henrik
-int binaryIn2 = A1; // pin 3
-int binaryIn3 = A2; // pin 4
+
+int binaryIn1 = A0; // pin 2 på rfduino
+int binaryIn2 = A1; // pin 3 på rfduino
+int binaryIn3 = A2; // pin 4 på rfduino
 
 int buttonPin1 = 2;   // knapp 1
 int buttonPin2 = 3;   // knapp 2
