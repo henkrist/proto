@@ -56,7 +56,7 @@ void readInput(){
       digitalWrite(diode4, LOW);
       break;
     default:
-      skalar = 1;
+      skalar = 1; //default, dersom den ikke får inn noe tall
       WAVE = WAVE_LEN * skalar; 
       digitalWrite(diode3, HIGH);
       digitalWrite(diode1, LOW); //diode som hører til
@@ -67,8 +67,8 @@ void readInput(){
   }
 }
 
-
-int readParallellBinary(){
+//denne oversetter binærtall til titallssystemet
+int readParallellBinary(){ 
   int values[3];
   int number;
   values[0] = digitalRead(binaryIn1);
