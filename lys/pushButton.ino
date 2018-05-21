@@ -52,6 +52,6 @@ void pushButton(){
 }
 
 void  sendData(int input){
-  Serial.println(input);
+  Serial.println(input); //printer ut tallene for hver knapp, som brukes i MaxMSP
 }
 
