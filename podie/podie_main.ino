@@ -1,6 +1,6 @@
 /*
   Proto-V18
-  Henrik Kristiansen
+  HK
   GY521 + RFduino x2
 */
 
